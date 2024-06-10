@@ -1,2 +1,2 @@
-db = db.getSiblingDB(process.env.DB_NAME);
+db = db.getSiblingDB('AuthifyJS');
 db.createCollection('users');
